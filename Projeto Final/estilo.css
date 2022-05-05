@@ -1,0 +1,52 @@
+body{
+	background:#F2F2F2;
+	font: 16px Arial, Helvetica, sans-serif;
+	}
+body p{
+	text-align: justify;
+	text-indent: 50px;
+}
+
+#container{
+	width: 100%;
+
+}
+
+.img{
+	height: 460px;
+	width: 100%;
+}
+
+#navegacao{
+	padding: 18px;
+	padding-left: 450px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+		
+}
+
+#navegacao a{
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+
+#navegacao a:hover{
+	color:green;
+	padding: 10px;
+	
+}
+
+.centralizar{
+	text-align: center;
+}
+
+.img-campanha{
+	border: 05px solid #282928;
+}
+
+h1{
+	color: #130101;
+	font: size 2.4em;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
