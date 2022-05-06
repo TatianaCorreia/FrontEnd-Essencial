@@ -15,6 +15,7 @@ body p{
 .img{
 	height: 460px;
 	width: 100%;
+	float-left;
 }
 
 #navegacao{
@@ -32,8 +33,9 @@ body p{
 }
 
 #navegacao a:hover{
-	color:green;
+	color: #00FF00;
 	padding: 10px;
+	transition: 1s;
 	
 }
 
