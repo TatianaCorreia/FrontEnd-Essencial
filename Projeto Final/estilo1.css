@@ -1,0 +1,26 @@
+/* GERAIS */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    
+}
+
+.container{
+    padding: 70px 0px;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+header, .navbar{
+    background-color:rgba(12, 211, 28, 0.938);
+}
+
+#nav-container{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#logo{
+    width: 80px;
+    height: 80px;
+  
+}
