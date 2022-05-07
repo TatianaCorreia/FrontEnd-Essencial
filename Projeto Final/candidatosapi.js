@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var url = "https://randomuser.me/api/?results=5&nat=br"; /*Optamos por trazer somente brasileiros (verificamos a documentação no site)*/
+  var url = "https://randomuser.me/api/?results=5&nat=br&seed=0042c8038085f5c6"; /*Optamos por trazer somente brasileiros (verificamos a documentação no site)*/
   fetchInformation(url);
 
   function fetchInformation(url) {

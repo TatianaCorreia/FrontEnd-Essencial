@@ -5,6 +5,22 @@
 
 
 
-.fontenavbar {
+.fontebranca {
     color: #fff;
+}
+
+.fundoindigo {
+  background-color: #40026C;
+  color: #fff;
+}
+
+
+.fundochocolate {
+  background-color: #191308;
+  color: #fff;
+}
+
+.fundochocolate:hover {
+  background-color: #d72638;
+  color: #fff;
 }
