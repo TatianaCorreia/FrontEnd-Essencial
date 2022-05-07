@@ -24,3 +24,29 @@
   background-color: #d72638;
   color: #fff;
 }
+
+.textoalinhadodireita {
+  object-position: right !important;
+  flex-direction: row-reverse;
+}
+
+.titulo {
+  background-color: #40026C;
+  color: #fff;
+}
+
+conteinerindigo {
+  background-color: #40026C;
+  color: #fff;
+}
+
+conteinerindigo:hover {
+  background-color: #d72638 !important;
+  color: #fff;
+}
+
+.imagemdefundo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
