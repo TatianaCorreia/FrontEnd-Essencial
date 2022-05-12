@@ -1,62 +1,143 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link rel=icon href="imagens/logo.ico" sizes="any">
-    <link rel="stylesheet" href="wagnercss.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cooperativa Popular</title>
-    
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark titulo">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><span class="fontebranca">Cooperativa Popular</span></a>
-              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-                <div class="navbar-nav ">
-                    <a class="nav-link" href="index.html">HOME</a>
-                    <a class="nav-link active" aria-current="page" href="#">QUEM SOMOS</a>
-                    <a class="nav-link" href="candidatos.html">CARDS</a>
-                </div>
-              </div>
+<html lang="PT-BR">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.js"
+      integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Aprender porque cargas dágua só funciona com essa jquery-->
+    <script src="candidatos.api"></script>
+    <link rel="icon" href="imagens/logo.ico" sizes="any" />
+    <link rel="stylesheet" href="./estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QUEM SOMOS</title>
+  </head>
+
+  <body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #40026C;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><span class="fontebranca">Cooperativa Popular</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+              <a class="nav-link active" aria-current= "page" href="quemsomos.html">QUEM SOMOS</a>
+              <a class="nav-link" href="candidatos.html">CANDIDATOS</a>
+              <a class="nav-link active" aria-current="page" href="oportunidades.html">NOVAS OPORTUNIDADES</a>
             </div>
-          </nav>
-    </header>
-
-   
-
-
-
-    <section id="conteudo"> 
-        <h1> <strong>QUEM SOMOS</strong></h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo earum sit, a ducimus, reiciendis nam aspernatur et impedit, suscipit accusamus assumenda? Ratione natus, corporis libero optio maiores tempore voluptatem eveniet!</p>
-        
-    </section>
-
-    
-    
-    <div class="row">
-        <div class="card um">
-         <h2>Lucy Chambers</h2>
-            
+          </div>
         </div>
-        
+      </nav>
+      <div>
+        <img class="img" src="imagens/coop6.png">
+      </div>
+
+      <section class="cabecalho-quemsomos">
+      <h3><strong>SOMOS UMA EQUIPE</strong></h3>
+      <p>Temos <b>PAIXÃO</b> que pelo fazemos, somos <b>MOTIVADORES</b> e <b>MOTIVADOS</b>, temos <b>LIDERANÇA</b> e somos <b>LIDERADOS</b>, <b>PRIORIZAMOS</b> o trabalho em <b>EQUIPE</b>, <b>SEMPRE</b> buscamos <b>CONHECIMENTO</b> e <b>NOVAS HABILIDADES.</b><br>
+      Nossa missão ultrapassa a simples realização de tarefas, pois fazemos parte de uma forma mais ampla do processo de organização da empresa. <b>SOMOS O QUE MOVE A EMPRESA</b>.<br>
+      Venha fazer parte da nossa equipe!
+      </p>
+      </section>
+
+     <div class="texto-quemsomos">
+       <h6><strong>Equipe Team Six.</strong><br>"O talento vence jogos, mas só trabalho em equipe vence campeonatos"<br><i>- Michael Jordan -</i></h6>
+     </div>
+
+  </header>
+  
+  <section>    
+      <div class="row"> 
+       <div class="card border-dark mb-3" style="max-width: 18rem;">
+       <img class="card-img-top padding:5px" src="imagens/wagner.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Wagner Marques</h5>
+          <p class="card-text">"Não importa o quanto vá devagar, desde que não pare." <br>
+            <img src="imagens/icone-linkedin.png" alt="Linkedin"><a href="https://www.linkedin.com/in/wagner-marques-oliveira-1446b522b" style="text-decoration: none;"target="_blank" rel="external">&nbsp;Linkedin</a>&nbsp;&nbsp;
+            <img class="imagem-git"src="imagens/icone-github.png"><a href=" https://github.com/wagnermarques00" style="text-decoration: none;" target="_blank" rel="external">&nbsp;Github</a></p>                   
+          <a href="#" class="btn btn-primary border border-secondary">acesse meu currículo</a>
+        </div>
+      </div>     
+      
+      <div class="card border-dark mb-3" style="max-width: 18rem;">
+        <img class="card-img-top" src="imagens/paulo.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Paulo Sérgio</h5>
+          <p class="card-text">"Sonhe sem medo, viva sem limites."<br>
+            <img src="imagens/icone-linkedin.png" alt="Linkedin"><a href="https://www.linkedin.com/in/paulo-sergio-da-silva-junior-85b85014a" style="text-decoration: none;"target="_blank" rel="external">&nbsp;Linkedin</a>&nbsp;&nbsp;
+          <img class="imagem-git"src="imagens/icone-github.png"><a href="https://github.com/Paulo026" style="text-decoration: none;" target="_blank" rel="external">&nbsp;Github</a></p>              
+          <a href="#" class="btn btn-primary border border-secondary">acesse meu currículo</a>
+        </div>
+      </div>
+
+      <div class="w-100"></div>
+      
+      <div class="card border-dark mb-3" style="max-width: 18rem;">
+        <img class="card-img-top" src="imagens/tatiana.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Tatiana Correa</h5>
+          <p class="card-text">"Um dia que começou agradecido terminou realizado." <br>
+            <img src="imagens/icone-linkedin.png" alt="Linkedin"><a href="https://www.linkedin.com/in/tatiana-correia-24b164189/" style="text-decoration: none;"target="_blank" rel="external">&nbsp;Linkedin</a>&nbsp;
+            <img class="imagem-git"src="imagens/icone-github.png"><a href="https://github.com/TatianaCorreia" style="text-decoration: none;" target="_blank" rel="external">&nbsp;Github</a></p>       
+          <a href="#" class="btn btn-primary border border-secondary">acesse meu currículo</a>
+        </div>
+      </div>
+      
+      <div class="card border-dark mb-3" style="max-width: 18rem;">
+        <img class="card-img-top" src="imagens/leonardo.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Leonardo Pires</h5>
+          <p class="card-text">"Você pode ter resultados ou desculpas. Nunca os dois." ,<br>
+            <img src="imagens/icone-linkedin.png" alt="Linkedin"><a href="https://www.linkedin.com/in/leonardo-aguiar-56a9b4202/" style="text-decoration: none;"target="_blank" rel="external">&nbsp;Linkedin</a>&nbsp;&nbsp;
+            <img src="imagens/icone-github.png"><a href="https://github.com/Leonardo12356" style="text-decoration: none;" target="_blank" rel="external">&nbsp;Github</a></p>
+          <a href="#" class="btn btn-primary border border-secondary">acesse meu currículo</a>
+        </div>
+      </div>
+
+      <div class="w-100"></div>
+
+      <div class="card border-dark mb-3"  style="max-width: 18rem;">
+        <img class="card-img-top" src="imagens/eduardo.png" alt="Imagem de capa do card">
+        <div class="card-body text-dark">
+          <h5 class="card-title">Eduardo Pina</h5>
+          <p class="card-text">"Alimente sua motivação e seus medos morrerão de fome." <br>
+            <img src="imagens/icone-linkedin.png" alt="Linkedin"><a href="https://www.linkedin.com/in/eduardo-pina-421649224/" style="text-decoration: none;"target="_blank" rel="external">&nbsp;Linkedin</a>&nbsp;
+            <img class="imagem-git"src="imagens/icone-github.png"><a href="https://github.com/edubrigatti" style="text-decoration: none;" target="_blank" rel="external">&nbsp;Github</a></p>            
+          <a href="#" class="btn btn-primary border border-secondary">acesse meu currículo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <div class="rodape">
+          <footer>
+          <h6>&copy;Cooperativa Popular<br/>Equipe Team Six</h6>
+      </footer>
     </div>
 
-    <footer>
-        <h6 class="centralizar">@copy:Cooperativa Popular<br/>Squad Team Six</h6>
-    </footer>
-    <script src="js/scripts.js"></script>
-
-</body>
-</html>
+    </body>
+  </html>

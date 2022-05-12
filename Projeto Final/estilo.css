@@ -1,54 +1,109 @@
-body{
-	background:#F2F2F2;
-	font: 16px Arial, Helvetica, sans-serif;
-	}
-body p{
-	text-align: justify;
-	text-indent: 50px;
+* {
+    font-family: 'Lato', sans-serif;
+    margin:0px;
+    
+  }
+  
+  
+  .cabecalho{
+    padding: 10px 0 10px 0;
+    background-image: linear-gradient(to top, #853ef2, #8315f4,  black);
+    width: 100%;  
+    color: #fff;  
+    box-shadow: 3px 3px 8px black;
+  }
+
+  .cabecalho-quemsomos{
+    padding: 10px 0 10px 0;
+    background-image: linear-gradient(to top, #853ef2, black);
+    width: 100%;  
+    color: #fff;  
+    box-shadow: 3px 3px 8px black;
+  }
+  
+
+  p{
+    font-size:medium;
+    text-align: center;
+    padding: 0 10px 0 10px;
+  }
+  
+  h6{
+    margin: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  h3{
+    text-align: center;
+    text-shadow: 5px;
+    font-style: italic;   
+  }
+
+  .video{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+
+.fontebranca {
+    color: #fff;
 }
 
-#container{
-	width: 100%;
+.fundoindigo {
+  background-color: #40026C;
+  color: #fff;
+}
 
+.fundochocolate {
+  background-color: #191308;
+  color: #fff;
+}
+
+.fundochocolate a:hover {
+  background-color: #d72638;
+  color: #fff;
+}
+
+.row{
+  display: flex;
+  justify-content:center;
+  text-align: center;
+  margin: 15px;
+  
+}
+
+.card-img-top{
+  margin-top: 8px;
+  border-radius: 90%;
+  border-style:solid;
+ }
+ 
+.card-body{
+  font-family: 'Lato', sans-serif;
+  text-align: center;   
+  box-shadow: 10px;
+  padding: 0 2px 4px 2px;
+}
+.card-text{
+  text-align: center;
+  
+}
+
+.rodape{
+  background-image: linear-gradient(to top, #4b484e, #dbd9d9) ;
+  text-align: center;
+  color: black;
+  padding: 1px 0 3px 0;
+  margin-top: 5px;  
+  
 }
 
 .img{
-	height: 460px;
-	width: 100%;
-	float-left;
+  width: 100%;
+  background-image: linear-gradient(to top, black, white);
 }
 
-#navegacao{
-	padding: 18px;
-	padding-left: 450px;
-	font-family:Verdana, Geneva, Tahoma, sans-serif;
-		
-}
-
-#navegacao a{
-	color: #000000;
-	text-decoration: none;
-	font-weight: bold;
-	padding: 5px;
-}
-
-#navegacao a:hover{
-	color: #00FF00;
-	padding: 10px;
-	transition: 1s;
-	
-}
-
-.centralizar{
-	text-align: center;
-}
-
-.img-campanha{
-	border: 05px solid #282928;
-}
-
-h1{
-	color: #130101;
-	font: size 2.4em;
-	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+.texto-quemsomos{
+  margin-top: 50px;
 }
