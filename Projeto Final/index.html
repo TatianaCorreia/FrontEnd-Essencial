@@ -1,50 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel=icon href="imagens/logo.ico" sizes="any">
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cooperativa Popular</title>
-
-    <link rel="stylesheet" href="estilo.css" />
-    <link rel=icon href="imagens/logo.ico" sizes="any">
-    
     
 </head>
 <body>
-
     <header>
-        <div id="container">
-        <img class="img" src="imagens/cooperativa.png">
-        </div>
-        
-        <nav id="navegacao">
-        <a href="index.html">HOME</a> |
-        <a href="quem-somos.html">QUEM SOMOS</a> |
-        <a href="cards.html">CARDS</a> |
-        <a href="contato.html">CONTATO</a>
-        </nav>	
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #40026C;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><span class="fontebranca">Cooperativa Popular</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                  <a class="nav-link " href="quemsomos.html">QUEM SOMOS</a>
+                  <a class="nav-link" href="candidatos.html">CANDIDATOS</a>
+                  <a class="nav-link" href="oportunidades.html">NOVAS OPORTUNIDADES</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
 
-    <section id="conteudo"> 
-        <h1> <strong>HISTÓRIA DO COOPERATIVISMO</strong></h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo earum sit, a ducimus, reiciendis nam aspernatur et impedit, suscipit accusamus assumenda? Ratione natus, corporis libero optio maiores tempore voluptatem eveniet!</p>
-        
-    </section>
-
-    
-    
-    <div class="row">
-        <div class="card um">
-         <h2>Lucy Chambers</h2>
-            
-        </div>
-        
+   
+    <div>
+        <img class="img" src="imagens/coop6.png">
     </div>
 
-    <footer>
-        <h6 class="centralizar">@copy:Cooperativa Popular<br/>Squad Team Six</h6>
-    </footer>
+
+    <section> 
+      <div class="cabecalho">
+        <h3> <strong>COOPERATIVISMO</strong></h3>
+        <p>Tem sua origem pela necessidade de sobrevivência, sendo importante na defesa contra       invasores e  caça na antiguidade, 
+          bem como forma de lutar contra as desigualdades sociais e econômicas no contexto da revolução industrial. Nesta luta, vários movimentos de cooperação surgiram em prol do 
+          cooperativismo, baseado nas ideias de ajuda mútua, igualdade, associativismo e auto-gestão. 
+          Dentro do contexto da Revolução Industrial, com a substituição do trabalho de manufatura pelo máquinário, a saída encontrada por aqueles trabalhadores
+          foi se organizarem em grupos, trabalhando em prol do grupo, onde o foco não era o lucro, e sim a igualdade entre seus membros.
+          No Brasil, os indígenas já trabalhavam em grupo, a primeira cooperativa da história começa em Ouro Preto/MG, em 1889. </p>
+      </div> 
+    </section>
+
+    <div class="video">       
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/UgFIQdtDKHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    
+    
+    
+
+    <div class="rodape">
+      <footer>
+          <h6>&copy;Cooperativa Popular<br/>Squad Team Six</h6>          
+      </footer>
+    </div>
+    
     <script src="js/scripts.js"></script>
 
 </body>
