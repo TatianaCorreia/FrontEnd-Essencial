@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -14,14 +14,39 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.js"
         integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
     <link rel="icon" href="imagens/logo.ico" sizes="any" />
+    <link rel="stylesheet" href="estilo.css" />
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="testeAPI.css" />
-    <title>Últimos 5 candidatos</title>
+    <title>CANDIDATOS</title>
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #40026C;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><span class="fontebranca">Cooperativa Popular</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                  <a class="nav-link active" aria-current="page" href="quemsomos.html">QUEM SOMOS</a>
+                  <a class="nav-link active" aria-current="page" href="candidatos.html">CANDIDATOS</a>
+                  <a class="nav-link active" aria-current= "page" href="oportunidades.html">NOVAS OPORTUNIDADES</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div>
+        <img class="img" src="imagens/coop6.png">
+    </div>
+
+    <div class="row"> 
     <!--Cartão 1-->
     <div class="card" style="width: 18rem;">
         <img id="image0" src="" alt="">
@@ -305,9 +330,13 @@
             </div>
         </div>
     </div>
+    </div>
 
-
-   
+    <div class="rodape">
+        <footer>
+            <h6>&copy;Cooperativa Popular<br/>Squad Team Six</h6>          
+        </footer>
+      </div>
     <script src="testeAPI.js"></script>
 
 </body>
