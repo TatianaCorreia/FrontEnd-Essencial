@@ -3,6 +3,12 @@
     margin:0px;    
   }
   
+  .barra-navegacao{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+
+  }
   .cabecalho{
     padding: 10px 0 10px 0;
     background-image: linear-gradient(to top, #853ef2, #8315f4,  black);
@@ -68,10 +74,7 @@
   text-align: center;
   margin: 20px;  
   padding-bottom: 15px;
-
 }
-
-
 
 .card-img-top{
   margin-top: 8px;
