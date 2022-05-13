@@ -63,8 +63,8 @@
   color: #fff;
 }
 
-.fundochocolate a:hover {
-  background-color: #d72638;
+.fundochocolate:hover {
+  background-color: #40026C;
   color: #fff;
 }
 
@@ -81,17 +81,25 @@
   border-radius: 90%;
   border-style:solid;
  }
+
+ .card{
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  border:#191308 solid !important;
+ }
  
 .card-body{
   font-family: 'Lato', sans-serif;
   text-align: center;   
-  box-shadow: 10px;
   padding: 0 2px 4px 2px;
+ 
+  border-radius: 1rem;
+ 
 }
 .card-text{
   text-align: center;
-  
-}
+  }
+
 
 .rodape{
   background-image: linear-gradient(to top, #4b484e, #dbd9d9) ;

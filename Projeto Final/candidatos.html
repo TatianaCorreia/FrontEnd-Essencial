@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="testeAPI.css" />
+  
     <title>CANDIDATOS</title>
 </head>
 
@@ -60,7 +60,7 @@
             </h5>
 
             <!-- Botão pra abrir o modal-->
-            <button type="button" class="btn  fundochocolate" data-bs-toggle="modal" data-bs-target="#modal0">
+            <button type="button" onclick="preencher(0)" class="btn  fundochocolate" data-bs-toggle="modal" data-bs-target="#modal0">
                 Clique para dados de contato
             </button>
 
@@ -73,7 +73,7 @@
                         <div class="modal-header fundoindigo">
                             Dados de contato
                             </h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" onclick="preencher(1)" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
 
                         <div class="modal-body">
@@ -117,11 +117,11 @@
             </h5>
 
             <!-- Botão pra abrir o modal-->
-            <button type="button" class="btn  fundochocolate" data-bs-toggle="modal" data-bs-target="#modal1">
+            <button type="button"  onclick="preencher(1)" class="btn   fundochocolate" data-bs-toggle="modal" data-bs-target="#modal1">
                 Clique para dados de contato
             </button>
 
-            <!-- Modal -->
+              <!-- Modal -->
             <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog">
@@ -130,7 +130,7 @@
                         <div class="modal-header fundoindigo">
                             Dados de contato
                             </h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" onclick="preencher(1)" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
 
                         <div class="modal-body">
@@ -339,7 +339,7 @@
             <h6>&copy;Cooperativa Popular<br/>Squad Team Six</h6>          
         </footer>
       </div>
-    <script src="testeAPI.js"></script>
+    <script src="candidatosAPI.js"></script>
 
 </body>
 

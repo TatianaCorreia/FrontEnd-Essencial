@@ -2,7 +2,7 @@ async function getRandomUser() {
     const response = await fetch("https://randomuser.me/api/?results=5&nat=br");
     //https://randomuser.me/api/?results=5&nat=br&seed=0042c8038085f5c6
     const data = await response.json();
-    const user = data.results[4]
+   
 
     const user0 = data.results[0]
     const user1 = data.results[1]
@@ -28,7 +28,12 @@ function displayUser0(user0) {
     const image0 = document.getElementById("image0");
 
     name0.innerText = `${user0.name.first} ${user0.name.last}`;
-    gender0.innerText = `${user0.gender}`;
+    if(user0.gender === "female"){
+        gender0.innerText = "Mulher";
+    }else{
+        gender0.innerText = "Homem";
+    }
+    
     email0.innerText = `${user0.email}`;
     phone0.innerText = `${user0.phone}`;
     location0.innerText = `${user0.location.timezone.description}`;
@@ -44,7 +49,11 @@ function displayUser1(user1) {
     const image1 = document.getElementById("image1");
 
     name1.innerText = `${user1.name.first} ${user1.name.last}`;
-    gender1.innerText = `${user1.gender}`;
+    if(user1.gender === "female"){
+        gender1.innerText = "Mulher";
+    }else{
+        gender1.innerText = "Homem";
+    }
     email1.innerText = `${user1.email}`;
     phone1.innerText = `${user1.phone}`;
     location1.innerText = `${user1.location.timezone.description}`;
@@ -60,7 +69,11 @@ function displayUser2(user2) {
     const image2 = document.getElementById("image2");
 
     name2.innerText = `${user2.name.first} ${user2.name.last}`;
-    gender2.innerText = `${user2.gender}`;
+    if(user2.gender === "female"){
+        gender2.innerText = "Mulher";
+    }else{
+        gender2.innerText = "Homem";
+    }
     email2.innerText = `${user2.email}`;
     phone2.innerText = `${user2.phone}`;
     location2.innerText = `${user2.location.timezone.description}`;
@@ -76,7 +89,11 @@ function displayUser3(user3) {
     const image3 = document.getElementById("image3");
 
     name3.innerText = `${user3.name.first} ${user3.name.last}`;
-    gender3.innerText = `${user3.gender}`;
+    if(user3.gender === "female"){
+        gender3.innerText = "Mulher";
+    }else{
+        gender3.innerText = "Homem";
+    }
     email3.innerText = `${user3.email}`;
     phone3.innerText = `${user3.phone}`;
     location3.innerText = `${user3.location.timezone.description}`;
@@ -92,7 +109,11 @@ function displayUser4(user4) {
     const image4 = document.getElementById("image4");
 
     name4.innerText = `${user4.name.first} ${user4.name.last}`;
-    gender4.innerText = `${user4.gender}`;
+    if(user4.gender === "female"){
+        gender4.innerText = "Mulher";
+    }else{
+        gender4.innerText = "Homem";
+    }
     email4.innerText = `${user4.email}`;
     phone4.innerText = `${user4.phone}`;
     location4.innerText = `${user4.location.timezone.description}`;
